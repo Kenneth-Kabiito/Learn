@@ -1,0 +1,371 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	background: #cd853f;
+	animation-name: color;
+	animation-duration: 10s;
+	animation-iteration-count: 5;
+}
+@keyframes color{
+	0% {
+		background-color: #cd853f;
+	}
+	10%{
+		background-color: rgba(205, 133, 63, 0.95);
+	}
+	20%{
+		background-color: rgba(205, 133, 63, 0.9);
+	}
+	30%{
+		background-color: rgba(205, 133, 63, 0.85);
+	}
+	40%{
+		background-color: rgba(205, 133, 63, 0.8);
+	}
+	50%{
+		background-color: rgba(205, 133, 63, 0.75);
+	}
+	60%{
+		background-color: rgba(205, 133, 63, 0.6);
+	}
+	70%{
+		background-color: rgba(205, 133, 63, 0.75);
+	}
+	80%{
+		background-color: rgba(205, 133, 63, 0.8);
+	}
+	90%{
+		background-color: rgba(205, 133, 63, 0.85);
+	}
+	100%{
+		background-color: rgba(205, 133, 63, 0.9);
+	}
+}
+.head{
+	text-align: center;
+	font-size: 80px;
+	font-family: algerian;
+	color: #FFFFFF;
+}
+.nav{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.nava{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.home{
+	color: #FFFFFF;
+	margin-left: 150px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.home:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.about{
+	color: #f0ffff;
+	font-size: 25px;
+	margin-left: 250px;
+	text-decoration: none;
+}
+.about:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.contact-us{
+	color: #FFFFFF;
+	margin-left: 250px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.contact-us:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.topics{
+	color: #FFFFFF;
+	margin-left: 150px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.topics:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.transactions{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.transactions:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.quiz{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.quiz:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.questions{
+	color: #FFFFFF;
+	margin-left: 250px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.questions:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.user-account{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.user-account:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.img{
+	width: 80px;
+	height: 53px;
+	margin-right: 20px;
+}
+.par{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 500px;
+	color: darkred;
+	font-family: times new roman;
+	font-size: 18px;
+	text-decoration: blink;
+}
+
+.parag{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 430px;
+	color: darkred;
+	font-family: times new roman;
+	font-size: 18px;
+	text-decoration: blink;
+}
+.paragr{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 480px;
+	color: darkgreen;
+	font-family: times new roman;
+	font-size: 18px;
+}
+.login,
+.login * {
+	box-sizing: border-box;
+	font-family: calibri;
+}
+.login{
+	max-width: 400px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+	padding: 5px;
+	background: #cd853f;
+	border-color: #cd853f;
+}
+.login-form-logo-container{
+	padding: 30px;
+	background: rgba(205, 133, 63, 0.8);
+}
+.p{
+	text-align: center;
+	font-size: 30px;
+	font-family: calibri;
+	color: #ffffff;
+}
+.login-form-content{
+	padding: 30px;
+	background: rgba(205, 133, 63, 0.6);
+}
+.login-form-header{
+	margin-bottom: 15px;
+	text-align: center;
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+.login-form-input{
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 2px solid #dddddd;
+	background: #ffffff;
+	outline: none;
+	transition: border-color 0.5s;
+}
+.login-form-input:focus{
+	border-color: green;
+}
+.login-form-button{
+	font-size: 25px;
+	font-family: calibri;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 10px;
+	background: green;
+	margin-left: 45px;
+	width: 75%;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.login-form-button:hover{
+	background: darkgreen;
+}
+.login-form-button:active{
+	background: darkgreen;
+}
+.login-form-links{
+	margin-top: 15px;
+	text-align: center;
+}
+.login-form-link{
+	margin-bottom: 5px;
+    font-family: calibri;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.login-form-link:hover{
+	color: darkred;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.login-form-link1{
+	margin-top: 2px;
+	font-family: calibri;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.login-form-link1:hover{
+	color: darkgreen;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.login-form-content2{
+	padding: 30px;
+	background: rgba(255, 255, 255, 0.7);
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.ptwo{
+	text-align: center;
+	font-size: 50px;
+	font-family: calibri;
+	color: darkgreen;
+	font-weight: bold;
+	font-style: italic;
+}
+.pfor{
+	text-align: center;
+	font-size: 50px;
+	font-family: times new roman;
+	color: darkgreen;
+	font-weight: bold;
+	font-style: italic;
+}
+.login-form-content3{
+	padding: 30px;
+	background: rgba(205, 133, 63, 1.0);
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.al{
+	margin-left: 55px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: calibri;
+	text-decoration: none;
+}
+.al:hover{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	color: darkgreen;
+}
+.ala{
+	margin-left: 140px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: calibri;
+	text-decoration: none;
+}
+.ala:hover{
+	text-decoration: underline;
+	font-size: 20px;
+	color: darkgreen;
+}
+.footer{
+	margin-top: 0px;
+	background: #cd853f;
+	color: #ffffff;
+	height: 250px;
+}
+.cap{
+	margin-left: 1050px;
+	margin-top: 50px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: times new roman;
+}
+.pthree{
+	margin-right: 0px;
+	margin-left: 340px;
+	margin-top: -100px;
+	color: darkred;
+}

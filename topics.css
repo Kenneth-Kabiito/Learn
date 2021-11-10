@@ -1,0 +1,625 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	background: #f0e68c;
+}
+
+.div{
+	margin-top: 0px;
+	height: 170px;
+	background: #cd853f;
+	animation-name: multicolor;
+	animation-duration: 30s;
+	animation-delay: 3s;
+	animation-iteration-count: 1.5; 
+}
+@keyframes multicolor{
+	0% {
+		background-color: #cd853f;
+	}
+	10%{
+		background-color: goldenrod;
+	}
+	20%{
+		background-color: gold;
+	}
+	30%{
+		background-color: darkorange;
+	}
+	40%{
+		background-color: darkgoldenrod;
+	}
+	50%{
+		background-color: chocolate;
+	}
+	60%{
+		background-color: brown;
+	}
+	70%{
+		background-color: maroon;
+	}
+	80%{
+		background-color: black;
+	}
+	90%{
+		background-color: darkolivegreen;
+	}
+	100%{
+		background-color: lightsalmon;
+	}
+}
+.head{
+	text-align: center;
+	font-size: 80px;
+	font-family: algerian;
+	color: #FFFFFF;
+}
+.nav{
+	margin-top: 20px;
+	margin-left: 60px;
+}
+.nava{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.home{
+	color: #FFFFFF;
+	margin-left: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.home:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.about{
+	color: #f0ffff;
+	font-size: 25px;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.about:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.contact-us{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.contact-us:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.topics{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.topics:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.transactions{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.transactions:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.quiz{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.quiz:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.questions{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.questions:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.user-account{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.user-account:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.login{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.login:hover{
+	transition: 1.2s;
+	font-size: 25px;
+	color: darkslateblue;
+	font-family: calibri;
+	font-weight: bold;
+}
+.img{
+	width: 80px;
+	height: 53px;
+	margin-right: 20px;
+}
+.container2{
+	margin-top: 0px;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-right: 1100px;
+	height: 2060px;
+}
+.footer{
+	margin-top: 0px;
+	background: #cd853f;
+	height: 250px;
+}
+.button{
+	margin-top: 5px;
+	color: #FFFFFF;
+	height: 50px;
+	margin-right: 10px;
+	margin-left: 5px;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 8px;
+	width: 240px;
+	background-color: #cd853f;
+}
+.button:hover{
+	transition: 1.0s;
+	margin-top: 5px;
+	color: #ffffff;
+	height: 50px;
+	margin-right: 10px;
+	margin-left: 5px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 8px;
+	width: 240px;
+	background-color: #32cd32;
+}
+.butt{
+	margin-top: 0px;
+	width: 248px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #32cd32;
+	height: 70px;
+	text-align: center;
+	font-size: 35px;
+	font-family: times new roman;
+	color: #FFFFFF;
+	border-radius: 3px;
+	border-color: #cd853f;
+    animation-name: multicolor;
+	animation-duration: 30s;
+	animation-delay: 3s;
+	animation-iteration-count: 1.5; 
+}
+@keyframes multicolor{
+	0% {
+		background-color: #cd853f;
+	}
+	10%{
+		background-color: goldenrod;
+	}
+	20%{
+		background-color: gold;
+	}
+	30%{
+		background-color: darkorange;
+	}
+	40%{
+		background-color: darkgoldenrod;
+	}
+	50%{
+		background-color: chocolate;
+	}
+	60%{
+		background-color: brown;
+	}
+	70%{
+		background-color: maroon;
+	}
+	80%{
+		background-color: #cd853f;
+	}
+	90%{
+		background-color: darkolivegreen;
+	}
+	100%{
+		background-color: lightsalmon;
+	}
+}
+.butt:hover{
+	margin-top: 0px;
+	width: 248px;
+	margin-left: 0px;
+	margin-right: 0px;
+	transition: 2s;
+	background-color: #cd853f;
+	height: 70px;
+	text-align: center;
+	font-size: 35px;
+	font-family: arial;
+	color: #FFFFFF;
+	border-radius: 3px;
+	border-color: #cd853f;
+}
+.container3{
+	margin-top: -2050px;
+	margin-left: 255px;
+	margin-bottom: 10px;
+	width: 1080px;
+	height: 2030px;
+	border-style: double;
+	border-radius: 5px;
+	border-color: #cd853f;
+}
+.container4{
+	width: 1020px;
+	height: 1855px;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #FFFFFF;
+	border-radius: 7px;
+	border-style: none;
+
+}
+.ho{
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 10px;
+	color: #6b8e23;
+	font-size: 80px;
+	font-family: lucida calligraphy;
+
+}
+.ho:hover{
+	transition: 3s;
+	color: cornflowerblue;
+	font-family: algerian;
+}
+.cap{
+	margin-left: 1050px;
+	margin-top: 50px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: times new roman;
+}
+#chem{
+	margin-left: 28.75px;
+	margin-top: 20px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#chem:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 4px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+#bio{
+    margin-left: 28.75px;
+    margin-top: 5px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#bio:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#phy{
+	margin-left: 28.75px;
+	margin-top: 20px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#phy:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#agric{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#agric:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#geo{
+	margin-left: 28.75px;
+	margin-top: 35px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#geo:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#manuf{
+	margin-left: 28.75px;
+	margin-top: 35px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#manuf:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#art{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#art:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#food{
+	margin-left: 28.75px;
+	margin-top: 35px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#food:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#politics{
+	margin-left: 28.75px;
+	margin-top: 35px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#politics:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#electronics{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#electronics:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#ict{
+	margin-left: 28.75px;
+	margin-top: 35px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#ict:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#ast{
+	margin-left: 28.75px;
+	margin-top: 35px;
+	width: 300px;
+	height: 180px;
+	border-radius: 10px;
+}
+#ast:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#finance{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#finance:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#christianity{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#christianity:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#islam{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#islam:hover {
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#catholicism{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#catholicism:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#hinduism{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#hinduism:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#literature{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#literature:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#business{
+	margin-left: 28.75px;
+    margin-top: 35px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+#business:hover{
+	border-color: #32cd32;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: solid;
+	transition: 0.25s;
+	cursor: pointer;
+}
